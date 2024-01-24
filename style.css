@@ -171,7 +171,79 @@ html {
     color: rgba(0, 0, 0, 1);
 }
 
+.features {
+    display: flex;
+    position: relative;
+    top: 70px;
+}
 
+.feature-element {
+    margin: 50px;
+    padding: 6px;
+    height: 90px;
+    width: 290px;
+}
+
+.feature-element .ico {
+    height: 72px;
+    width: 65px;
+}
+
+.feature-element p {
+    left: 73px;
+    top: -58px;
+    position: relative;
+    font-size: 20px;
+    width: 197px;
+    font-family: "Inder";
+    color: rgba(0, 0, 0, 1);
+}
+
+.seperator {
+    height: 1px;
+    position: relative;
+    top: 119px;
+    width: 100%;
+    background-color: #857979;
+}
+
+.third-layer {
+    height: 667px;
+}
+
+.third-layer .group img {
+    position: relative;
+    width: 445px;
+    height: 407px;
+    top: 135px;
+    left: 10%;
+}
+
+.third-layer .group h1 {
+    font-size: 39px;
+    width: 479px;
+    font-family: "Inder";
+    color: rgba(0, 0, 0, 1);
+}
+
+.third-layer .group p {
+    width: 480px;
+    font-family: "Inter";
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.third-layer .group .txt {
+    width: 500px;
+    right: 18%;
+    position: absolute;
+    top: 227px;
+}
+
+.third-layer .group {
+    position: relative;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar {
