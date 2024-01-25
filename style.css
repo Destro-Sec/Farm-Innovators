@@ -433,6 +433,199 @@ html {
 
 
 
+.seventh-layer {
+    height: 894px;
+}
+
+.seventh-layer .headings {
+    position: relative;
+    top: 130px;
+}
+
+.seventh-layer .headings h1 {
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: Semi Bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.seventh-layer .headings p {
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    font-family: "Inter";
+    color: rgba(118, 118, 118, 1);
+    margin-top: 15px;
+}
+
+.seventh-layer .headings p span {
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.seventh-layer .grid {
+    display: grid;
+    width: 129rem;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+    top: 194px;
+    position: relative;
+    left: 9%;
+}
+
+@media (max-width: 60em) {
+    .seventh-layer .grid {
+        grid-gap: 3rem;
+    }
+}
+
+.seventh-layer .grid__item {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.seventh-layer .grid__item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.seventh-layer .card__img {
+    display: block;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.seventh-layer .card__content {
+    padding: 3rem 3rem;
+}
+
+.seventh-layer .card__header {
+    font-size: 18px;
+    width: 311px;
+    font-family: "Inder";
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 1.5rem;
+}
+
+.seventh-layer .card__text {
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    font-size: 15px;
+    width: 330px;
+    font-family: "Inter";
+    color: rgba(118, 118, 118, 1);
+    margin-bottom: 2.5rem;
+}
+
+
+
+.eighth-layer {
+    width: 100%;
+    height: 610px;
+    background: url("./images/f3-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.eighth-layer .left {
+    position: absolute;
+}
+
+.eighth-layer .left .ico {
+    width: 104px;
+    height: 129px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.eighth-layer .left h1 {
+    color: #FFF;
+    font-family: "Inder";
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    left: 58px;
+}
+
+.eighth-layer .left p {
+    width: 450px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: "Inter";
+    font-size: 22px;
+    position: relative;
+    top: 67px;
+    left: 60px;
+}
+
+.eighth-layer .left button {
+    width: 196px;
+    height: 55px;
+    border-radius: 7px;
+    background: #14A800;
+    color: #FFF;
+    font-family: "Inder";
+    font-size: 25px;
+    border: none;
+    position: relative;
+    top: 115px;
+    left: 60px;
+}
+
+
+.eighth-layer .right {
+    position: absolute;
+}
+
+.eighth-layer .right .ico {
+    width: 104px;
+    height: 129px;
+    position: relative;
+    top: 50px;
+    left: 870px;
+}
+
+.eighth-layer .right h1 {
+    color: #FFF;
+    font-family: "Inder";
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    left: 870px;
+}
+
+.eighth-layer .right p {
+    width: 450px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: "Inter";
+    font-size: 22px;
+    position: relative;
+    top: 67px;
+    left: 870px;
+}
+
+.eighth-layer .right button {
+    width: 196px;
+    height: 55px;
+    border-radius: 7px;
+    background: #2563EB;
+    color: #FFF;
+    font-family: "Inder";
+    font-size: 25px;
+    border: none;
+    position: relative;
+    top: 115px;
+    left: 870px;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar {
