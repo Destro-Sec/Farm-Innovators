@@ -627,6 +627,106 @@ html {
     left: 870px;
 }
 
+
+
+.footer {
+    height: 445px;
+    position: relative;
+}
+
+.footer .content {
+    position: relative;
+    top: 65px;
+    left: 83px;
+    height: 323px;
+    width: 90%;
+}
+
+.footer .brand,
+.footer .contacts,
+.footer .links,
+.footer .legals {
+    position: absolute;
+}
+
+.footer .brand p {
+    color: rgba(0, 0, 0, 0.65);
+    font-family: Inter;
+    font-size: 18px;
+    width: 353px;
+    position: relative;
+    top: 22px;
+    left: 0;
+}
+
+.footer .brand h1 {
+    color: #000;
+    font-family: "Inder";
+    font-size: 18px;
+    position: relative;
+    top: 66px;
+}
+
+.footer .contacts {
+    left: 34%;
+    top: 30px;
+}
+
+.footer .contacts h1 {
+    color: #000;
+    font-family: "Inder";
+    font-size: 23px;
+}
+
+.footer .contacts a {
+    color: rgba(0, 0, 0, 0.65);
+    font-family: "Inter";
+    font-size: 18px;
+    top: 65px;
+    position: relative;
+    text-decoration: none;
+}
+
+.footer .links {
+    left: 61%;
+    top: 30px;
+}
+
+.footer .links h1 {
+    color: #000;
+    font-family: "Inder";
+    font-size: 23px;
+}
+
+.footer .links a {
+    color: rgba(0, 0, 0, 0.65);
+    font-family: "Inter";
+    font-size: 18px;
+    top: 65px;
+    position: relative;
+    text-decoration: none;
+}
+
+.footer .legals {
+    left: 77%;
+    top: 30px;
+}
+
+.footer .legals h1 {
+    color: #000;
+    font-family: "Inder";
+    font-size: 23px;
+}
+
+.footer .legals a {
+    color: rgba(0, 0, 0, 0.65);
+    font-family: "Inter";
+    font-size: 18px;
+    top: 65px;
+    position: relative;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 768px) {
     .navbar {
         position: relative;
